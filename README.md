@@ -9,7 +9,6 @@ Modern ve kullanıcı dostu arayüzü ile film keşfetme ve izleme deneyimi suna
 - 🌓 Açık/Koyu tema desteği
 - 🌍 Çoklu dil desteği (Türkçe/İngilizce)
 - 📸 Profil fotoğrafı yükleme
-- 🔍 Film arama ve filtreleme
 - 📱 Responsive tasarım
 
 ## 🏗️ Mimari
