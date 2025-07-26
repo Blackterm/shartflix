@@ -1,0 +1,47 @@
+name: shartflix
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dio: ^5.8.0+1
+  shared_preferences: ^2.5.3
+  easy_localization: ^3.0.8
+  stacked: ^3.4.4
+  animate_do: ^4.2.0
+  google_fonts: ^6.1.0
+  url_launcher: ^6.2.2
+  image_picker: ^1.0.4
+  permission_handler: ^11.3.1
+  image: ^4.0.17
+  cached_network_image: ^3.3.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/SinFlixLogo.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/icon/SinFlixLogo.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: "^0.14.3"
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
+    - assets/translations/
+    - assets/images/
