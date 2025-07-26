@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:shartflix/utils/constants.dart';
 
 import '../utils/api_logging_interceptor_utils.dart';
 import '../utils/error_handling_interceptor_utils.dart';
@@ -15,7 +16,7 @@ class DioService {
   static Dio getDioInstance() {
     if (_dio == null) {
       _dio = Dio(BaseOptions(
-        baseUrl: "https://caseapi.servicelabs.tech/",
+        baseUrl: AppConstants.baseApiUrl,
         connectTimeout: const Duration(minutes: 3),
         receiveTimeout: const Duration(minutes: 2),
       ))
